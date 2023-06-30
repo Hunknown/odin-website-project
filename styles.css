@@ -94,10 +94,20 @@ button {
   font-style: italic;
   font-weight: lighter;
   color: #1F2937;
+  text-align: left;
+}
+
+.quote-name {
+  text-align: right;
+  font-weight: 800;
 }
 
 .quote {
   background-color: #E5E7EB;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 50px 100px;
 }
 
 .signup {
