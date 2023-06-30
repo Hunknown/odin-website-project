@@ -17,6 +17,7 @@ body {
   padding: 10px 300px 100px 300px;
   row-gap: 100px;
   justify-content: center;
+  margin-bottom: 50px;
 }
 
 .header-head {
