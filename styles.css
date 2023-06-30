@@ -67,6 +67,28 @@ button {
   color: #1F2937;
 }
 
+.main {
+  text-align: center;
+}
+
+.info-img {
+  max-width: 250px;
+}
+
+.card-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: baseline;
+  align-items: baseline;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 250px;
+}
+
 .quote-main {
   font-size: 36px;
   font-style: italic;
