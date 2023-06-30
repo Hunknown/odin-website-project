@@ -14,18 +14,18 @@ body {
 .header {
   display: flex;
   flex-wrap: wrap;
-  margin:0;
   padding: 10px 300px 100px 300px;
   row-gap: 100px;
-  flex: 0 0 33%;
-  justify-content: space-between;
+  justify-content: center;
 }
 
 .header-head {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  flex: 1 0 100%;
+  flex: 1 1 100%;
+  align-items: center;
+  row-gap: 10px;
 }
 
 ul {
@@ -48,7 +48,7 @@ a {
 
 .desc {
   display: flex;
-  flex: 1 0 100%;
+  flex: 1 1 100%;
   justify-content: space-between;
   flex-wrap: wrap;
   row-gap: 10px;
@@ -64,6 +64,7 @@ a {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+  justify-content: center;
   max-width: 600px;
   gap: 10px;
 }
@@ -82,7 +83,8 @@ button {
 }
 
 button:hover {
-  background-color: #1F2937;
+  background-color: #d5e484;
+  color: #1F2937;
   transition: 0.7s;
 }
 
@@ -143,7 +145,7 @@ button:hover {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 50px 350px;
+  padding: 50px 300px;
 }
 
 .signup {
@@ -152,6 +154,7 @@ button:hover {
   margin: 50px 300px;
   border-radius: 5px;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
   padding: 30px 100px;
@@ -161,6 +164,7 @@ button:hover {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+  justify-content: center;
 }
 
 .signup-head {
