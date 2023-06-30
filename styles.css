@@ -78,7 +78,7 @@ button {
 .card-list {
   display: flex;
   flex-wrap: wrap;
-  justify-content: baseline;
+  justify-content: center;
   align-items: baseline;
 }
 
