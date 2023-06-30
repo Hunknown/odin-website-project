@@ -138,6 +138,7 @@ button:hover {
 .quote-name {
   text-align: right;
   font-weight: 800;
+  margin-left: 80%;
 }
 
 .quote {
@@ -145,6 +146,7 @@ button:hover {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
   padding: 50px 300px;
 }
 
